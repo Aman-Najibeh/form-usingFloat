@@ -1,0 +1,79 @@
+/* *{
+    box-sizing:initial;
+} */
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(0deg, rgba(244,190,233,1) 17%, rgba(171,146,212,1) 72%);
+    background-repeat: no-repeat; 
+     /* background-color:  rgba(244,190,233,1); */
+     height: 100%;
+}
+.continer{
+    width: 50%;
+    height: 100%;
+    margin:75px auto;
+    border-radius: 5%;
+    /* clear: both; */
+   }
+table{
+    border-spacing:0px;
+    float: right;
+    border-radius: 5%;
+}
+tr{
+    border: solid 1px pink;
+    border-radius: 5%;
+}
+td{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    border: 0px;
+}
+td img{
+    float: left;
+    width:100% ;
+    height: 100%;
+     /* overflow: hidden;  */
+     object-fit: contain;
+    
+}
+#color-White{
+    color: white;
+}
+td+td{
+    padding: 5%;
+}
+
+/* ::-webkit-calendar-picker-indicator {
+    /* filter: invert(1); 
+    color: white;
+} */
+
+input,select{
+    margin: auto;
+    display: block;
+    width: 100%;
+    background-color: black;
+    border: none;
+    border-bottom: solid 1px gray;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+    outline: none;
+    color-scheme: dark;
+}
+input::placeholder{
+    color: white;
+}
+#Submit{
+    background: linear-gradient(0deg, rgba(244,190,233,1) 17%, rgba(171,146,212,1) 72%);
+    border: none;
+    padding: 10px;
+}
+#clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
